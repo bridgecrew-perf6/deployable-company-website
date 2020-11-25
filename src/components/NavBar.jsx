@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { constants } from '../constants';
 
 function NavBar(props) {
     return (
         <div className="navbar">
             <div className="container flex">
-                <h1 className="logo">Deployable</h1>
+                <h1 className="logo">{constants.texts.companyName}</h1>
                 <nav>
                     <ul>
                         <Link className="navbar-link" to="/">

@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { constants } from '../../constants';
 
 function Showcase(props) {
+
     return (
         <section className="showcase">
             <div className="container grid">
                 <div className="showcase-text">
                     <h1>Effortless Deployment</h1>
-                    <p>Deploy JS apps to GCP with ease.
-                    from large scale enterprise APIs to static websites
-                    for individuals. Fill out the form to try a demo of our platform.
-                    </p>
+                    <p>{constants.texts.homeShowcaseText}</p>
                     <Link to='/features' className="btn btn-outline">Read More</Link>
                 </div>
                 <div className="showcase-form card">
