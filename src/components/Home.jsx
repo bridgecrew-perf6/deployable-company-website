@@ -7,7 +7,9 @@ function Home(props) {
         <div>
             <Showcase />
             <Stats />
+
         </div>
+
     );
 }
 
