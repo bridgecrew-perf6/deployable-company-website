@@ -8,7 +8,7 @@ function Stats(props) {
         <section className="stats">
             <div className="container">
                 <h3 className="stats-heading text-center my-1">
-                    Welcome to the best platform for deploying apps to Google Cloud Platform
+                    Meet the best platform for deploying apps to Google Cloud
                 </h3>
 
                 <div className="grid grid-3 text-center my-4">
