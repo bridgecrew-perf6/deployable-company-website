@@ -2,6 +2,9 @@
 
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3f88;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
 }
 
 * {
@@ -84,7 +87,32 @@ img {
   color: #fff;
   border: none;
   border-radius: 5px;
+}
 
+/* Backgrounds & colored buttons*/
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
 }
 
 .btn-outline {
@@ -95,6 +123,28 @@ img {
 
 .btn:hover {
   transform: scale(0.98);
+}
+
+/* text sizes */
+
+.lead {
+  font-size: 20px; 
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
 }
 
 /* Margin */

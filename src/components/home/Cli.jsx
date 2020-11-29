@@ -5,7 +5,7 @@ function Cli(props) {
     return (
         <section className="cli">
             <div className="container grid">
-                <img src={cliImage} alt="CLI image" />
+                <img src={cliImage} alt="Deployable CLI" />
                 <div className="card">
                     <h3>Easy to use CLI</h3>
                 </div>
