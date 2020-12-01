@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Cli from './home/Cli';
 import Cloud from './home/Cloud';
 import Languages from './home/Languages';
@@ -14,7 +13,6 @@ function Home(props) {
             <Cli />
             <Cloud />
             <Languages />
-            <Footer />
         </div>
 
     );

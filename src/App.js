@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Features from './components/Features';
 import Docs from './components/Docs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/features' exact render={() => <Features />} />
           <Route path='/docs' exact render={() => <Docs />} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
