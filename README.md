@@ -11,6 +11,22 @@
 - Runs the app in the development mode.\
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## App screenshots
+<h1 align="center">
+    <img src="./screenshots/Home_Desktop_0.png" width="756"/>
+    <img src="./screenshots/Home_Desktop_1.png" width="756"/>
+    <img src="./screenshots/Home_Desktop_2.png" width="756"/>
+    <img src="./screenshots/Home_Desktop_3.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_0.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_1.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_2.png" width="756"/>
+    <img src="./screenshots/Features_Desktop_0.png" width="756"/>
+    <img src="./screenshots/Features_Desktop_1.png" width="756"/>
+    <img src="./screenshots/Docs_Desktop_0.png" width="756"/>
+    <img src="./screenshots/Docs_Desktop_1.png" width="756"/>
+</h1>
+
 ## Roadmap
+- Responsive design for features and docs page.
 - Adding animations.
 - Connecting contact form to email service.
