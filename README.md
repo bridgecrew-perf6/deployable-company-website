@@ -14,7 +14,6 @@
 ## App screenshots
 <h1 align="center">
     <img src="./screenshots/Home_Desktop_0.png" width="756"/>
-    <img src="./screenshots/Home_Desktop_1.png" width="756"/>
     <img src="./screenshots/Home_Desktop_2.png" width="756"/>
     <img src="./screenshots/Home_Desktop_3.png" width="756"/>
     <img src="./screenshots/Home_Mobile_0.png" width="756"/>
@@ -30,3 +29,4 @@
 - Responsive design for features and docs page.
 - Adding animations.
 - Connecting contact form to email service.
+- Deploy the website to he web.
