@@ -16,15 +16,15 @@
     <img src="./screenshots/Home_Desktop_0.png" width="756"/>
     <img src="./screenshots/Home_Desktop_1.png" width="756"/>
     <img src="./screenshots/Home_Desktop_2.png" width="756"/>
-    <img src="./screenshots/Home_Mobile_0.png" width="756"/>
-    <img src="./screenshots/Home_Mobile_1.png" width="756"/>
-    <img src="./screenshots/Home_Mobile_2.png" width="756"/>
     <img src="./screenshots/Features_Desktop_0.png" width="756"/>
     <img src="./screenshots/Features_Desktop_1.png" width="756"/>
     <img src="./screenshots/Features_Desktop_2.png" width="756"/>
     <img src="./screenshots/Docs_Desktop_0.png" width="756"/>
     <img src="./screenshots/Docs_Desktop_1.png" width="756"/>
     <img src="./screenshots/Docs_Desktop_2.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_0.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_1.png" width="756"/>
+    <img src="./screenshots/Home_Mobile_2.png" width="756"/>
 </h1>
 
 ## Roadmap
