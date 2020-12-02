@@ -28,7 +28,6 @@
 </h1>
 
 ## Roadmap
-- Responsive design for features and docs page.
 - Adding animations.
 - Connecting contact form to email service.
 - Deploy the website to he web.
