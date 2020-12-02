@@ -137,6 +137,29 @@ code, pre {
   transform: scale(0.98);
 }
 
+/* text colors */
+
+.text-primary {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  text-decoration: none;
+  color: var(--secondary-color);
+  
+}
+
+.text-dark {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.text-light {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
 /* text sizes */
 
 .lead {

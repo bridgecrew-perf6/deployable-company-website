@@ -13,7 +13,7 @@ function Main(props) {
                     <nav>
                         <ul>
                             <Link className="docs-link">
-                                <li>Introduction</li>
+                                <li className="text-primary">Introduction</li>
                             </Link>
                             <Link className="docs-link">
                                 <li>About Deployable</li>
