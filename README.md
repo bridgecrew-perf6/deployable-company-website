@@ -31,4 +31,4 @@
 </h1>
 
 ## Roadmap
-- Connecting contact form to email service.
+- Connecting contact form to email service and netlify form submission.
