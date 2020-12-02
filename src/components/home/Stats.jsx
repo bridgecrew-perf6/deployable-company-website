@@ -11,7 +11,7 @@ function Stats(props) {
                     Meet the best platform for deploying apps to Google Cloud
                 </h3>
 
-                <div className="grid grid-3 text-center my-4">
+                <div className="grid grid-3 text-center my-4 stats-icons">
                     <div>
                         <FontAwesomeIcon className="fas" icon={faServer} size="3x" />
                         <h3>5,678</h3>

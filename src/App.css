@@ -56,7 +56,7 @@
   }
 
   .showcase-text {
-      animation: slideInFromLeft 1s ease-in;
+      animation: slideInFromLeft 1s ease-in-out;
   }
   
   .showcase-form {
@@ -67,7 +67,7 @@
     padding: 40px;
     z-index: 100;
     justify-self: flex-end;
-    animation: slideInFromTop 1s ease-in;
+    animation: slideInFromTop 1s ease-in-out;
   }
   
   .showcase-form .form-control {
@@ -105,7 +105,10 @@
   /* Stats */
   .stats {
     padding-top: 100px;
-    animation: slideInFromBottom 1s ease-in;
+  }
+
+  .stats-icons {
+    animation: slideInFromBottom 1s ease-in-out;
   }
 
   .stats-heading {
@@ -256,6 +259,24 @@
         transform: translateX(0);
     }
 }
+
+/* Large screens */
+
+@media(min-width: 1400px) {
+    .showcase-text {
+        animation: none;
+    }
+
+    .showcase-form {
+        animation: none;
+    }
+
+    .stats-icons {
+        animation: slideInFromRight 1s ease-in-out;
+    }
+}
+
+
 /* Tablets and under */
 @media(max-width: 768px) {
     .grid,
@@ -276,13 +297,17 @@
     .showcase-text {
         text-align: center;
         margin-top: 40px;
-        animation: slideInFromTop 1s ease-in;
+        animation: none;
     }
 
     .showcase-form {
         justify-self: center;
         margin: auto;
-        animation: slideInFromBottom 1s ease-in;
+        animation: slideInFromBottom 1s ease-in-out;
+    }
+
+    .stats-icons {
+        animation: slideInFromRight 1s ease-in-out;
     }
 
     .cli .grid > *:first-child {

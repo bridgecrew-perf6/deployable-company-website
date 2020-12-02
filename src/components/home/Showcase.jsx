@@ -14,8 +14,8 @@ function Showcase(props) {
                 </div>
                 <div className="showcase-form card">
                     <h2>Request a Demo</h2>
-                    <form name="contact" method="POST" netlify netlify-honeypot="bot-field" data-netlify="true">
-                        <p class="hidden">
+                    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <p className="hidden">
                             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                         </p>
                         <input type="hidden" name="form-name" value="contact" />
