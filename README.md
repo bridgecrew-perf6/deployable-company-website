@@ -7,6 +7,9 @@
 - React.Js app. 
 - Vanilla css3.
 
+## Production version
+- [visit the site](https://imbenrabi-deployable.netlify.app/)
+
 ### `yarn start`
 - Runs the app in the development mode.\
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -28,6 +31,4 @@
 </h1>
 
 ## Roadmap
-- Adding animations.
 - Connecting contact form to email service.
-- Deploy the website to he web.
